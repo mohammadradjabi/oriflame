@@ -1,0 +1,433 @@
+header {
+  a {
+    color: black;
+  }
+}
+.join,
+.sign {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track {
+  background-color: white;
+  box-shadow: inset 0 0 2px white;
+}
+::-webkit-scrollbar-thumb {
+  border: 3px solid white;
+  border-radius: 10px;
+  background: rgb(196, 190, 190);
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.myswiper {
+  width: 100%;
+  height: 500px;
+}
+
+.swiper-slide {
+  position: relative;
+}
+
+.swiper-slide img {
+  width: 100%;
+  object-fit: cover;
+}
+div.swiper-button-prev::after,
+div.swiper-button-next::after {
+  font-size: 16px;
+  color: rgb(65, 65, 65);
+}
+/* oriflame slider */
+div.oriflame > div.swiper-button-prev::after,
+div.oriflame > div.swiper-button-next::after {
+  position: absolute;
+  top: 150px;
+  box-shadow: 1px 1px 1px rgb(167, 163, 163);
+  padding: 17px;
+  border-radius: 50%;
+  background-color: rgba(241, 238, 238, 0.144);
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+div.oriflame-xs > div.swiper-button-prev::after,
+div.oriflame-xs > div.swiper-button-next::after {
+  box-shadow: 1px 1px 1px rgb(255, 253, 253);
+  padding: 17px;
+  border-radius: 50%;
+  background-color: rgba(241, 238, 238, 0.671);
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+div.oriflame > div.swiper-button-prev::after {
+  left: 20px;
+}
+div.oriflame > div.swiper-button-next::after {
+  right: 20px;
+}
+div.story > span {
+  display: none;
+}
+div.story:hover > span {
+  display: block;
+}
+div.story:hover {
+  filter: brightness(0.8);
+}
+/* main {
+  height: calc(100vh - 80px);
+} */
+i.hide {
+  display: none;
+}
+p.user > input,
+p.pass > input {
+  border: unset;
+  border-bottom: 1px solid gray;
+  height: 30px;
+  outline: none;
+}
+div.submenu > div > ul:nth-of-type(1) {
+  border-right: 0.5px solid rgb(238, 232, 232);
+}
+div.submenu > div > ul:nth-of-type(1) > li:nth-of-type(4) {
+  border-left: 3px solid #685bc7;
+}
+div.submenu > div > ul:nth-of-type(1) > li:nth-of-type(5) {
+  border-left: 3px solid #91e7e3;
+}
+div.submenu > div > ul:nth-of-type(1) > li:nth-of-type(6) {
+  border-left: 3px solid #e793b7;
+}
+div.submenu > div > ul:nth-of-type(1) > li:nth-of-type(7) {
+  border-left: 3px solid #b6ada5;
+}
+div.submenu > div > ul:nth-of-type(1) > li:nth-of-type(8) {
+  border-left: 3px solid #2774ae;
+}
+div.submenu > div > ul:nth-of-type(1) > li:nth-of-type(9) {
+  border-left: 3px solid #f0c264;
+}
+div.submenu > div > ul:nth-of-type(1) > li:nth-of-type(10) {
+  border-left: 3px solid #ff8072;
+}
+div.submenu > div > ul:nth-of-type(1) > li:nth-of-type(11) {
+  border-left: 3px solid #007681;
+}
+div.submenu > div > ul:nth-of-type(1) > li:nth-of-type(12) {
+  border-left: 3px solid #7ed1ea;
+}
+/* menu xs */
+div.menu-xs > ul > li:nth-of-type(4) {
+  border-left: 3px solid #685bc7;
+}
+div.menu-xs > ul > li:nth-of-type(5) {
+  border-left: 3px solid #91e7e3;
+}
+div.menu-xs > ul > li:nth-of-type(6) {
+  border-left: 3px solid #e793b7;
+}
+div.menu-xs > ul > li:nth-of-type(7) {
+  border-left: 3px solid #b6ada5;
+}
+div.menu-xs > ul > li:nth-of-type(8) {
+  border-left: 3px solid #2774ae;
+}
+div.menu-xs > ul > li:nth-of-type(9) {
+  border-left: 3px solid #f0c264;
+}
+div.menu-xs > ul > li:nth-of-type(10) {
+  border-left: 3px solid #ff8072;
+}
+div.menu-xs > ul > li:nth-of-type(11) {
+  border-left: 3px solid #007681;
+}
+div.menu-xs > ul > li:nth-of-type(12) {
+  border-left: 3px solid #7ed1ea;
+}
+.view {
+  width: 70px;
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 5px 15px;
+  text-align: center;
+  border-radius: 16px;
+}
+div.submenu-inspiration > ul > li > p {
+  font-size: 20px;
+  left: 0;
+  text-align: center;
+  padding: 0 20px;
+  top: 42%;
+}
+div.submenu-inspiration > ul > li:hover > img {
+  filter: brightness(70%);
+}
+div.submenu-nutrition > ul > li {
+  font-size: 13px;
+  color: #333333;
+  font-weight: 500;
+  padding: 0 50px 40px 5px;
+}
+div.submenu-nutrition > ul > li:hover > a {
+  color: gray;
+}
+div.submenu-skin {
+  gap: 20px;
+}
+div.submenu-skin > ul > li {
+  padding-bottom: 10px;
+}
+div.submenu-skin > ul > li > a {
+  color: rgb(82, 81, 81);
+  font-size: 14px;
+}
+div.submenu-skin > ul > li:hover > a {
+  color: gray;
+}
+div.submenu-skin > ul > li.lh > a {
+  color: #333333;
+  font-weight: 500;
+}
+div.submenu-skin > ul > li.lh:hover > a {
+  color: #696565;
+}
+div.submenu-skin > ul > li.lh-new {
+  padding: 0 50px 30px 0;
+}
+div.submenu-skin > ul > li.lh-last {
+  padding: 0 50px 30px 0;
+}
+div.submenu-skin > ul > li.lh-new > a {
+  font-size: 16px;
+  color: black;
+  font-weight: 500;
+}
+div.submenu-make-up {
+  gap: 20px;
+}
+div.submenu-make-up > ul > li {
+  padding-bottom: 10px;
+}
+div.submenu-make-up > ul > li > a {
+  color: rgb(82, 81, 81);
+  font-size: 14px;
+}
+div.submenu-make-up > ul > li:hover > a {
+  color: gray;
+}
+div.submenu-make-up > ul > li.lh > a {
+  color: #333333;
+  font-weight: 500;
+}
+div.submenu-make-up > ul > li.lh:hover > a {
+  color: #696565;
+}
+div.submenu-make-up > ul > li.lh-new,
+div.submenu-make-up > ul > li.lh-last {
+  padding: 0 50px 30px 0;
+}
+div.submenu-fragrance {
+  gap: 20px;
+}
+div.submenu-fragrance > ul > li {
+  padding-bottom: 10px;
+}
+div.submenu-fragrance > ul > li > a {
+  color: rgb(82, 81, 81);
+  font-size: 14px;
+}
+div.submenu-fragrance > ul > li:hover > a {
+  color: gray;
+}
+div.submenu-fragrance > ul > li.lh > a {
+  color: #333333;
+  font-weight: 500;
+}
+div.submenu-fragrance > ul > li.lh:hover > a {
+  color: #696565;
+}
+div.submenu-fragrance > ul > li.lh-new,
+div.submenu-fragrance > ul > li.lh-last {
+  padding: 0 50px 30px 0;
+}
+div.submenu-bath {
+  gap: 20px;
+}
+div.submenu-bath > ul > li {
+  padding-bottom: 10px;
+}
+div.submenu-bath > ul > li > a {
+  color: rgb(82, 81, 81);
+  font-size: 14px;
+}
+div.submenu-bath > ul > li:hover > a {
+  color: gray;
+}
+div.submenu-bath > ul > li.lh > a {
+  color: #333333;
+  font-weight: 500;
+}
+div.submenu-bath > ul > li.lh:hover > a {
+  color: #696565;
+}
+div.submenu-bath > ul > li.lh-new,
+div.submenu-bath > ul > li.lh-last {
+  padding: 0 50px 30px 0;
+}
+div.submenu-hair {
+  gap: 20px;
+}
+div.submenu-hair > ul > li {
+  padding-bottom: 10px;
+}
+div.submenu-hair > ul > li > a {
+  color: rgb(82, 81, 81);
+  font-size: 14px;
+}
+div.submenu-hair > ul > li:hover > a {
+  color: gray;
+}
+div.submenu-hair > ul > li.lh > a {
+  color: #333333;
+  font-weight: 500;
+}
+div.submenu-hair > ul > li.lh:hover > a {
+  color: #696565;
+}
+div.submenu-hair > ul > li.lh-new,
+div.submenu-hair > ul > li.lh-last {
+  padding: 0 50px 30px 0;
+}
+div.submenu-accessories {
+  gap: 20px;
+}
+div.submenu-accessories > ul > li {
+  padding-bottom: 10px;
+}
+div.submenu-accessories > ul > li > a {
+  color: rgb(82, 81, 81);
+  font-size: 14px;
+}
+div.submenu-accessories > ul > li:hover > a {
+  color: gray;
+}
+div.submenu-accessories > ul > li.lh > a {
+  color: #333333;
+  font-weight: 500;
+}
+div.submenu-accessories > ul > li.lh:hover > a {
+  color: #696565;
+}
+div.submenu-accessories > ul > li.lh-new,
+div.submenu-accessories > ul > li.lh-last {
+  padding: 0 50px 30px 0;
+}
+div.submenu-men {
+  gap: 20px;
+}
+div.submenu-men > ul > li {
+  padding-bottom: 10px;
+}
+div.submenu-men > ul > li > a {
+  color: rgb(82, 81, 81);
+  font-size: 14px;
+}
+div.submenu-men > ul > li:hover > a {
+  color: gray;
+}
+div.submenu-men > ul > li.lh > a {
+  color: #333333;
+  font-weight: 500;
+}
+div.submenu-men > ul > li.lh:hover > a {
+  color: #696565;
+}
+div.submenu-men > ul > li.lh-new,
+div.submenu-men > ul > li.lh-last {
+  padding: 0 50px 30px 0;
+}
+div.submenu-kids {
+  gap: 20px;
+}
+div.submenu-kids > ul > li {
+  padding-bottom: 10px;
+}
+div.submenu-kids > ul > li > a {
+  color: rgb(82, 81, 81);
+  font-size: 14px;
+}
+div.submenu-kids > ul > li:hover > a {
+  color: gray;
+}
+div.submenu-kids > ul > li.lh > a {
+  color: #333333;
+  font-weight: 500;
+}
+div.submenu-kids > ul > li.lh:hover > a {
+  color: #696565;
+}
+div.submenu-kids > ul > li.lh-new,
+div.submenu-kids > ul > li.lh-last {
+  padding: 0 50px 30px 0;
+}
+div.whatsnewimg1 > div {
+  background: url(./img/whatsnew1.jfif);
+  width: 100%;
+  background-clip: border-box;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+div.s15yearsimg1 > div {
+  background: url(./img/15years1.jfif);
+  width: 100%;
+  background-clip: border-box;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+div.bestoffersimg1 > div {
+  background: url(./img/bestoffers5.jfif);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+div.whatsnewimg2 > div > img {
+  width: 100%;
+  object-position: center;
+
+  object-fit: cover;
+  transition: all 500ms;
+}
+div.whatsnewimg2:hover > div > img {
+  transform: scale(1.1);
+}
+div.container03-lg > div:nth-of-type(1) {
+  border-radius: 4px 0 0 4px;
+  background-image: url(./img/online_exclusive.jfif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+div.boxx {
+  transition: all 500ms ease-in;
+}
+div.boxx:hover > div:nth-of-type(1) {
+  transition: all 1000ms linear;
+  display: block;
+}
+div.boxx:hover > div:nth-of-type(1) > span {
+  transition-delay: 500ms;
+  display: block;
+  text-wrap: nowrap;
+}

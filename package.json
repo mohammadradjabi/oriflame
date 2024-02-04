@@ -1,0 +1,17 @@
+{
+  "name": "8-ouriflame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./tailwind/tailwind.css -o ./main.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "swiper": "^11.0.5",
+    "tailwindcss": "^3.4.1"
+  }
+}
